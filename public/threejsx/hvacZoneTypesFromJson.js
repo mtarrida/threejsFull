@@ -9,6 +9,7 @@ export function hvacZoneTypesFromJson() {
 
     let parseData;
     // read jason
+    //
     newFetch("../public/json/data02.json").then((result) => {
         // newFetch("../json/data02.json").then((result) => {
         // let parseData;
